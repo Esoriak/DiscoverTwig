@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tout à 1 euros ici</title>
+    <link rel="icon" href="/assets/images/favicon.png">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+<body>
+    <h1>Voici le tableau twig mode !</h1>
+    {% for product in products %}
+      <p> {{product}} </p>
+    {% endfor %}
+
+    <pre>
+      {{ dump(products) }}
+    </pre>
+   </body>
+</html>
