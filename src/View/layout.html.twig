@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>{% block title %} KweezCode {% endblock %}</title>
+      <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css" />
 
     <link rel="stylesheet" href="/assets/css/style.css"> 
     <link rel="icon" href="/assets/images/favicon.png">
@@ -14,5 +15,6 @@
 
 <body>
     {% block content %}{% endblock %}
+    {% block footer %}{% endblock %}
 </body>
 </html>
